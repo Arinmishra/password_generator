@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+h1{
+    padding-top: 115px;
+    padding-left: 54px;
+    padding-bottom: 5px;
+}
+.h1{
+    color: white;
+    font-family: "Karla", sans-serif;
+}
+
+.random{
+    color: #4ADF86;
+}
+
+h5{
+    color: #D5D4D8;
+    padding-left: 52px;
+    padding-top: 5PX;
+    padding-bottom: 51px;
+}
+
+button{
+    background-color: #10B981;
+    color: #FFFFFF;
+    margin-left: 52px;
+    padding: 9px 17px 9px 15px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 163px;
+    font-family: "Karla", sans-serif;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #40c073;
+}
+
+.baseline{ 
+    border-bottom: 2px solid #2F3E53;
+    margin-top: 35px;
+    margin-left: 52px;
+    margin-right: 52px;
+    margin-bottom: 35px;
+}
+
+.downcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.textgenerator{
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    border-radius: 6px;
+    margin-right: 12px;
+    padding: 12px 20px;
+    color: #55F991;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.note{
+    color: #D5D4D8;
+    text-align: center;
+    margin-top: 35px;
+}
+
